@@ -1,8 +1,8 @@
 FROM node:18.4
 
-WORKDIR  /app
+WORKDIR  /nodeps
 
 COPY package*.json .
 RUN npm install
 COPY . .
-CMD node index.js
+CMD node app.js

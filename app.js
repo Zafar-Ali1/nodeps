@@ -11,6 +11,6 @@ app.get("/", function (request, response){
 });
 
 //start the server
-app.listen(8080);
+app.listen(80);
 
 console.log("Something awesome to happen at http://localhost:8080");
